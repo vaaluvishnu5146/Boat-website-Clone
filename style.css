@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .container {
+  width: 100%;
+  margin: 0 20px 0 20px;
+} */
+
+p {
+  margin: 0px;
+}
+
+.web-info-banner {
+  height: 35px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom-navbar {
+  height: 80px;
+
+  .nav-container {
+    width: 100%;
+  }
+
+  .brand-logo {
+    width: 85px;
+  }
+
+  .link-list {
+    margin: 0px;
+  }
+}
+
+.service {
+  img {
+    width: 100px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-section {
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+  }
+  .service {
+    img {
+      width: 85px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.categories {
+  overflow-x: scroll;
+  .scroll-container {
+    padding-left: 11 0px;
+    box-sizing: border-box;
+  }
+  .category {
+    min-width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
